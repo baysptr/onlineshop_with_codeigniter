@@ -116,7 +116,7 @@ CREATE TABLE `tb_product` (
   `gambar_product` varchar(255) NOT NULL,
   `tgl_post` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -125,7 +125,7 @@ CREATE TABLE `tb_product` (
 
 LOCK TABLES `tb_product` WRITE;
 /*!40000 ALTER TABLE `tb_product` DISABLE KEYS */;
-INSERT INTO `tb_product` VALUES (5,'Muse','A5',100,80,'ada',50000,'a6bf9432362fa10b98f817ad102cdc3b.png','2016-12-12 21:49:36'),(6,'One Ok Rocks','A5',100,80,'ada',50000,'6d22e5b3fd5f49d6d0337301fe8e5d3c.png','2016-12-12 21:50:25'),(7,'Nirvana','A5',100,80,'ada',50000,'c5b09f82bef7f6956aa20883d976649e.png','2016-12-12 21:53:37');
+INSERT INTO `tb_product` VALUES (5,'Muse','A5',100,80,'ada',50000,'a6bf9432362fa10b98f817ad102cdc3b.png','2016-12-12 21:49:36'),(6,'One Ok Rocks','A5',100,80,'ada',50000,'6d22e5b3fd5f49d6d0337301fe8e5d3c.png','2016-12-12 21:50:25'),(7,'Nirvana','A5',100,80,'ada',50000,'c5b09f82bef7f6956aa20883d976649e.png','2016-12-12 21:53:37'),(8,'Monkey D. Luffy Gear IV','A5',100,80,'ada',50000,'84951cb162163d507c40e572f9fbe455.png','2016-12-22 08:44:31'),(9,'The Beatles','A5',100,80,'ada',50000,'eb18c4accdaf6a2dbfc4c07705009653.png','2016-12-22 08:49:38'),(10,'Dota 3','A5',100,80,'ada',50000,'0ebf204e5d0b2466c9a81e0b5b34c9e6.png','2016-12-22 08:51:32'),(11,'Death Note','A5',100,80,'ada',50000,'376f65a9c5baae3dfb25eda9f97818b6.png','2016-12-22 08:52:38');
 /*!40000 ALTER TABLE `tb_product` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -164,4 +164,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-12-21 22:06:36
+-- Dump completed on 2016-12-22  8:57:34
