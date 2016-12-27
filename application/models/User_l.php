@@ -28,6 +28,7 @@ class User_l extends CI_Model {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="' . base_url() . 'bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="' . base_url() . 'bower_components/bootstrap/dist/css/navbar-fixed-top.css" rel="stylesheet" type="text/css"/>
+        <link href="' . base_url() . 'bower_components/bootstrap/dist/css/timeline.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" type="image/png" href="' . base_url() . 'uploads/planner.ico"/>
     </head>
     <body>';
@@ -49,8 +50,8 @@ class User_l extends CI_Model {
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="' . base_url() . '">Home</a></li>
-                        <li><a href="#about">Tentang Kami</a></li>
-                        <li><a href="#contact">Cara Beli</a></li>
+                        <li><a href="'. site_url().'/welcome/about_me">Tentang Kami</a></li>
+                        <li><a href="'. site_url().'/welcome/cara_beli">Cara Beli</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="javascript:;" data-toggle="modal" data-target="#myModal">Login</a></li>

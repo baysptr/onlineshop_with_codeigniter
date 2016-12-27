@@ -69,6 +69,22 @@ class Welcome extends CI_Controller {
 
         $this->load->view('index', $data);
     }
+    
+    public function about_me(){
+        $data['meta'] = $this->User_l->meta();
+        $data['navbar'] = $this->User_l->navbar();
+        $data['script'] = $this->User_l->script();
+        
+        $this->load->view("tentang_kami", $data);
+    }
+    
+    public function cara_beli(){
+        $data['meta'] = $this->User_l->meta();
+        $data['navbar'] = $this->User_l->navbar();
+        $data['script'] = $this->User_l->script();
+        
+        $this->load->view("cara_beli", $data);
+    }
 
     public function show_product($id) {
         $data = $this->Product_m->edit_product($id);
